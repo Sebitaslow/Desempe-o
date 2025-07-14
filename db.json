@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@admin.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "1",
+      "name": "Sebastian",
+      "email": "mazoosebas@gmail.com",
+      "password": "123456789",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": " Susana",
+      "email": "susi@gmail.com",
+      "password": "12348",
+      "role": "admin"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "name": "Introducción a JavaScript",
+      "description": "Curso básico de JavaScript",
+      "capacity": "12",
+      "date": "10-Jul-2025"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "userId": 2,
+      "eventId": 1
+    },
+    {
+      "id": "1",
+      "userId": 1,
+      "eventId": 1
+    }
+  ]
+}
